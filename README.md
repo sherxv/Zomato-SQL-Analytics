@@ -14,8 +14,8 @@ It helps in understanding basics of SQL such as joins, filtering, grouping, orde
 
 ## 📂 Files Included
 
-* **zomato data files script.sql** – Table creation + data insertion
-* **sql_query.sql** – Basic SQL queries for analysis
+* **zomato_data.sql** – Table creation + data insertion
+* **zomato_analysis.sql** – Basic SQL queries for analysis
 
 ## 🎯 Learning Outcomes
 
