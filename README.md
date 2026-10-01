@@ -1,26 +1,44 @@
-# Zomato SQL Project
+# Zomato SQL Analytics
 
-A SQL project designed to practice core database concepts using Zomato-style restaurant and order data.
+A SQL-based customer and product analytics project using Zomato-style transactional data to analyze purchasing behaviour, product preferences, customer activity, and Gold membership patterns.
 
-## 📌 Overview
+## 📌 Project Overview
 
-This project includes SQL scripts to:
+This project uses a relational dataset containing **customers, transactions, products, and Gold membership information** to answer business-oriented analytical questions using SQL.
 
-* Create restaurant-related tables
-* Insert sample data
-* Run analytical queries
+Key analyses include:
 
-It helps in understanding basics of SQL such as joins, filtering, grouping, ordering, and simple insights generation.
+* Customer-wise spending and visit frequency
+* First and favourite product purchased by each customer
+* Most purchased products and customer-level purchase patterns
+* Transactions before and after Gold membership
+* Customer spending and activity around Gold membership
+* Loyalty points and first-year Gold membership analysis
+* Chronological transaction ranking using window functions
 
-## 📂 Files Included
+## 🛠️ SQL Concepts Used
 
-* **zomato_data.sql** – Table creation + data insertion
-* **zomato_analysis.sql** – Basic SQL queries for analysis
+* `JOIN` and multi-table analysis
+* `GROUP BY` and aggregate functions
+* Common Table Expressions (CTEs)
+* Window functions — `RANK()`
+* Subqueries
+* Conditional filtering
+* Date-based analysis
+* Customer and product-level aggregation
+* Business KPI calculation
 
-## 🎯 Learning Outcomes
+## 📂 Project Structure
 
-* Joins & constraints
-* Data analysis through queries
-* Understanding relational structure
+* **`zomato_data.sql`** — Creates the relational tables and loads the sample transactional data.
+* **`zomato_analysis.sql`** — Contains the analytical SQL queries and business questions.
+
+## 🎯 Objective
+
+The project focuses on converting transactional data into **customer, product, and loyalty insights** while developing practical SQL skills for business intelligence and data analytics.
+
+## 💡 Key Takeaway
+
+The project demonstrates the use of SQL to structure relational data, perform multi-table analysis, apply analytical functions, and translate business questions into actionable metrics.
 
 
